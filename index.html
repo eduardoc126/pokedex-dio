@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="assets/styles/css/styles.css">
+</head>
+
+<body>
+    <section class="pokedex">
+    <header>
+        <br>
+        <h1>Pokedex</h1>
+        <br>
+    </header>
+
+        <ol id="listPokemon" class="listPokemon"></ol>
+
+        <div class="pokemonModal" id="detailPokemon"></div>
+
+        <div class="center-btn">
+            <button class="btn-ver-mais" id="btn-verMais" type="button">
+                Ver mais
+            </button>
+        </div>
+    </section>
+    
+    <script src="assets/scripts/js/poke-api.js"></script>
+    <script src="assets/scripts/js/pokemon-model.js"></script>
+    <script src="assets/scripts/js/main.js"></script>
+</body>
+
+</html>
